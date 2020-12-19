@@ -13,6 +13,8 @@
 		08551EA4258E5AC2003F1FE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08551EA2258E5AC2003F1FE8 /* Main.storyboard */; };
 		08551EA6258E5AC5003F1FE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08551EA5258E5AC5003F1FE8 /* Assets.xcassets */; };
 		08551EA9258E5AC5003F1FE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08551EA7258E5AC5003F1FE8 /* LaunchScreen.storyboard */; };
+		08DACCE8258E60A800C6A1EF /* TextFieldPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DACCE7258E60A800C6A1EF /* TextFieldPadding.swift */; };
+		08DACCEA258E60D800C6A1EF /* TextViewPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DACCE9258E60D800C6A1EF /* TextViewPadding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		08551EA5258E5AC5003F1FE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08551EA8258E5AC5003F1FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08551EAA258E5AC5003F1FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08DACCE7258E60A800C6A1EF /* TextFieldPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldPadding.swift; sourceTree = "<group>"; };
+		08DACCE9258E60D800C6A1EF /* TextViewPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewPadding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				08551EA5258E5AC5003F1FE8 /* Assets.xcassets */,
 				08551EA7258E5AC5003F1FE8 /* LaunchScreen.storyboard */,
 				08551EAA258E5AC5003F1FE8 /* Info.plist */,
+				08DACCE7258E60A800C6A1EF /* TextFieldPadding.swift */,
+				08DACCE9258E60D800C6A1EF /* TextViewPadding.swift */,
 			);
 			path = Padding;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				08551EA1258E5AC2003F1FE8 /* ViewController.swift in Sources */,
+				08DACCE8258E60A800C6A1EF /* TextFieldPadding.swift in Sources */,
+				08DACCEA258E60D800C6A1EF /* TextViewPadding.swift in Sources */,
 				08551E9D258E5AC2003F1FE8 /* AppDelegate.swift in Sources */,
 				08551E9F258E5AC2003F1FE8 /* SceneDelegate.swift in Sources */,
 			);
